@@ -270,17 +270,15 @@ div.clickEffect2{
   text-align: center;
   border-radius: 25px 25px 25px 25px;
 }
-.carousel__cell:hover{
-  box-shadow: 0 0 19px 19px rgba(0, 159, 212, 0.5);
-}
-.carousel__cell:nth-child(8n+1) { background: rgba(90, 90, 90, 0.8); }
-.carousel__cell:nth-child(8n+2) { background: rgba(90, 90, 90, 0.8); }
-.carousel__cell:nth-child(8n+3) { background: rgba(90, 90, 90, 0.8); }
-.carousel__cell:nth-child(8n+4) { background: rgba(90, 90, 90, 0.8); }
-.carousel__cell:nth-child(8n+5) { background: rgba(90, 90, 90, 0.8); }
-.carousel__cell:nth-child(8n+6) { background: rgba(90, 90, 90, 0.8); }
-.carousel__cell:nth-child(8n+7) { background: rgba(90, 90, 90, 0.8); }
-.carousel__cell:nth-child(8n+0) { background: rgba(90, 90, 90, 0.8); }
+
+.carousel__cell:nth-child(8n+1) { background: rgba(50, 50, 90, 1); }
+.carousel__cell:nth-child(8n+2) { background: rgba(50, 50, 90, 1); }
+.carousel__cell:nth-child(8n+3) { background: rgba(50, 50, 90, 1); }
+.carousel__cell:nth-child(8n+4) { background: rgba(50, 50, 90, 1); }
+.carousel__cell:nth-child(8n+5) { background: rgba(50, 90, 50, 1); }
+.carousel__cell:nth-child(8n+6) { background: rgba(50, 90, 50, 1); }
+.carousel__cell:nth-child(8n+7) { background: rgba(50, 90, 50, 1); }
+.carousel__cell:nth-child(8n+0) { background: rgba(50, 90, 50, 1); }
 
 .carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(824px); }
 .carousel__cell:nth-child(2) { transform: rotateY( 45deg) translateZ(824px); }
