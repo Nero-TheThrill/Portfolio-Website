@@ -129,7 +129,7 @@ display: none;
     padding-bottom: 60px;
 }
 .title:hover{
-  animation: blur .75s ease-out;
+  animation: blur .95s ease-out;
 }
 
 @keyframes blur {
@@ -137,18 +137,6 @@ display: none;
     text-shadow:0px 0px 10px #fff,
       0px 0px 10px #fff, 
       0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 50px #fff,
-      0px 0px 50px #fff,
-      0px 0px 50px #7B96B8,
-      0px 0px 150px #7B96B8,
-      0px 10px 100px #7B96B8,
-      0px 10px 100px #7B96B8,
-      0px 10px 100px #7B96B8,
       0px 10px 100px #7B96B8,
       0px -10px 100px #7B96B8,
       0px -10px 100px #7B96B8;
@@ -346,4 +334,18 @@ table{
 .card__face a:hover{
   text-decoration: none;
   color:rgb(187, 187, 187);
+}
+
+
+.photo img{
+  width: 250px;
+  height: 480px;
+  object-fit: cover;
+  filter: grayscale(100%) contrast(120%);
+  box-shadow: 10px 15px 25px 0 rgba(0,0,0,.5);
+  display: block;
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: -10px;
+  margin-left:  auto;
+   margin-right: auto;
 }
