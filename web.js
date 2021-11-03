@@ -67,13 +67,24 @@ function rotateNext(){
   selectedIndex++;
   rotateCarousel();
 }
-var id = setInterval('rotateNext();', 1500); 
+var id;
+function restart()
+{
+    id = setInterval('rotateNext();', 1500);
+}
 function stop() {
    clearInterval(id);
 }
+window.onload=function() {
+  restart(); // start the script
+  
+  carousel.onmouseover=function() {
+    clearInterval(id)
+  }
 
-document.querySelectorAll('.card').forEach(item => {
-  item.addEventListener('click', event => {
-    item.classList.toggle('is-flipped');
-  })
-})
+  // the following MAY trigger when over the iframe - remove if necessary
+  carousel.onmouseout=function() {
+    restart();
+  }
+
+}
