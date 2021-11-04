@@ -157,10 +157,13 @@ display: none;
   line-height: 30px;
   font-weight: bold;
   color: white;
-  border: 2px solid;
-  border-radius: 10px;
+  border: 1px solid;
+
+
+  border-width: 1px 0px 1px 0px;
+
   padding: 15px;
-  background: linear-gradient(60deg,rgba(255, 255, 255, 0.05),rgba(255, 255, 255, 0.14),rgba(255, 255, 255,0.1),rgba(255,255,255,0.2));
+ 
 }
 
 div.clickEffect1{
