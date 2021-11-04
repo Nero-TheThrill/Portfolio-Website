@@ -11,8 +11,6 @@ display: none;
 }
 .resume {
   border-width: 3px 4px 3px 5px;
-  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
-  transform: rotate(13deg);
   animation: animated-border  1.5s infinite;
   filter: grayscale(100%) contrast(80%);
   width: 30vw;
@@ -39,6 +37,7 @@ display: none;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+
 }
 
 #Mynav ul li a{
@@ -112,6 +111,7 @@ display: none;
   section{
     min-height: 88vh;
     min-width:100%;
+
   }
   .fixedsection{
     min-height:800px;
@@ -136,7 +136,7 @@ display: none;
 
 @keyframes blur {
   from {
-    text-shadow:0px 0px 5px #fff,
+    text-shadow:0px 0px 5px #808080,
       0px 0px 50px #7B96B8;
   }
 }
@@ -160,6 +160,7 @@ display: none;
   border: 1px solid;
   border-width: 1px 0px 1px 0px;
   padding: 15px;
+
 }
 
 div.clickEffect1{
@@ -305,8 +306,7 @@ div.clickEffect2{
     white-space: nowrap;
     text-align: center;
     font-size: 4em;
-    color: #8b8b8b;
+    color: #DEDEDC;
     font-weight: 400;
-
     text-shadow: 0px 0px 5px #000000, 0px 0px 7px #000000;
 }
