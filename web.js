@@ -92,7 +92,7 @@ window.onload=function() {
 function rotateNext1(e){
   var doc = (e.target && e.target.ownerDocument)
   var ypos=e.clientX;
-  if(ypos<=$(window).width()/2+(($(window).width()/22)))
+  if(ypos>=$(window).width()/2+(($(window).width()/22)))
     selectedIndex++;
   else
     selectedIndex--;
