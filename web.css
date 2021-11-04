@@ -14,7 +14,7 @@ display: none;
   border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
   transform: rotate(13deg);
   animation: animated-border  1.5s infinite;
-   filter: grayscale(100%) contrast(80%);
+  filter: grayscale(100%) contrast(80%);
 }
 
 .resume:hover {
@@ -75,38 +75,38 @@ display: none;
   }
   #resume {
     top: 0%;
-    background: linear-gradient(#8b8b8b, #424242);
+    background: #DCDCDC;
   }
   #resume:hover
   {
-    background: linear-gradient(#424242, #202020);
+    background: #808080;
   }
   
   #ability {
     top: 25%;
-     background: linear-gradient(#8b8b8b, #424242);
+    background: #DCDCDC;
   }
   #ability:hover
   {
-    background: linear-gradient(#424242, #202020);
+    background: #808080;
   }
 
   #projects {
     top: 50%;
-    background: linear-gradient(#8b8b8b, #424242);
+   background: #DCDCDC;
   }
   #projects:hover
   {
-    background: linear-gradient(#424242, #202020);
+    background: #808080;
   }
   
   #contact {
     top: 75%;
-    background: linear-gradient(#8b8b8b, #424242);
+   background: #DCDCDC;
   }
   #contact:hover
   {
-    background: linear-gradient(#424242, #202020);
+    background: #808080;
   }
 
   section{
@@ -249,9 +249,12 @@ div.clickEffect2{
   left: 100px;
   top: 10px;
 
+
+  white-space: nowrap;
+  font-weight: 400;
+  text-shadow: 0px 0px 5px #000000, 0px 0px 7px #000000;
   line-height: 185px;
   font-size: 30px;
-  font-weight: bold;
   color: white;
   text-align: center;
   border-radius: 25px 25px 25px 25px;
@@ -298,4 +301,13 @@ div.clickEffect2{
 
 .videoborder{
   border-radius: 20px;
+}
+.discription{
+    white-space: nowrap;
+    text-align: center;
+    font-size: 4em;
+    color: #8b8b8b;
+    font-weight: 400;
+
+    text-shadow: 0px 0px 5px #000000, 0px 0px 7px #000000;
 }
