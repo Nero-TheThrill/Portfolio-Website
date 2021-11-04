@@ -113,8 +113,8 @@ display: none;
     min-height: 88vh;
     min-width:100%;
   }
-  .smallsection{
-    min-height:200px;
+  .fixedsection{
+    min-height:800px;
     min-width:100%;
   }
 
