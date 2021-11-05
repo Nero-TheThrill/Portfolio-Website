@@ -16,28 +16,16 @@ body {
     display: none; 
   }
 }
-@media only screen and (max-width:800px) {
-  .mobileHidden { 
-    display: none; 
-  }
-}
-
 @media only screen and (max-device-width:35cm) {
 .resume {
   border-width: 3px 4px 3px 5px;
   animation: animated-border  1.5s infinite;
   filter: grayscale(100%) contrast(80%);
-  height: 50vh;
-  width: height/2;
-}
-}
-@media only screen and (max-width:800px) {
-.resume {
-  border-width: 3px 4px 3px 5px;
-  animation: animated-border  1.5s infinite;
-  filter: grayscale(100%) contrast(80%);
-  height: 50vh;
-  width: height/2;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  
+  height: 100%;
+  width: 100%;
 }
 }
 
@@ -52,6 +40,7 @@ display: none;
   filter: grayscale(100%) contrast(80%);
   margin-top: 5vh;
   margin-bottom: 5vh;
+  margin-left: 18.5vw;
   width: 30vw;
   height: width*2.5;
 }
@@ -76,7 +65,7 @@ display: none;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
+  width: 40%;
 }
 
 #Mynav ul li a{
