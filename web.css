@@ -23,9 +23,10 @@ body {
   filter: grayscale(100%) contrast(80%);
   margin-top: 5vh;
   margin-bottom: 5vh;
-  margin-left: 18.5vw;
-  width: 50vh;
-  height: width*2.5;
+  margin-left: auto;
+    margin-right: auto;
+  height: 50vh;
+  width: height/2.5;
 }
 }
 
