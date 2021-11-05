@@ -179,15 +179,15 @@ display: none;
 
 div.clickEffect1{
   position: fixed;
-	box-sizing:border-box;
+  box-sizing:border-box;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-	border-style:solid;
-	border-color:#55b9f3;
-	border-radius:50%;
-	animation:clickEffect1 0.5s ease-out;
-	z-index:99999;
+  border-style:solid;
+  border-color:#55b9f3;
+  border-radius:50%;
+  animation:clickEffect1 0.5s ease-out;
+  z-index:99999;
 }
 div.clickEffect2{
    position: fixed;
@@ -202,18 +202,18 @@ div.clickEffect2{
   z-index:99999;
 }
 @keyframes clickEffect1{
-	0%{
-		opacity:0.8;
-		width:40px; height:40px;
-		border-width:6px;
+  0%{
+    opacity:0.8;
+    width:40px; height:40px;
+    border-width:6px;
     filter: hue-rotate(0deg);
-	}
-	100%{
-		opacity:0.1;
-		width:10px; height:10px;
-		border-width:1px;
+  }
+  100%{
+    opacity:0.1;
+    width:10px; height:10px;
+    border-width:1px;
     filter: hue-rotate(800deg);
-	}
+  }
 }
 @keyframes clickEffect2{
   0%{
