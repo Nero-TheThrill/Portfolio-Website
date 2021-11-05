@@ -24,13 +24,16 @@ body {
   margin-top: 5vh;
   margin-bottom: 5vh;
   margin-left: 18.5vw;
-  width: 10vh;
+  width: 50vh;
   height: width*2.5;
 }
 }
+
+
 ::-webkit-scrollbar {
 display: none;
 }
+@media only screen and (min-device-width:35cm) {
 .resume {
   border-width: 3px 4px 3px 5px;
   animation: animated-border  1.5s infinite;
@@ -40,6 +43,7 @@ display: none;
   margin-left: 18.5vw;
   width: 30vw;
   height: width*2.5;
+}
 }
 
 .resume:hover {
