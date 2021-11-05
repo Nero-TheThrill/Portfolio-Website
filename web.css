@@ -13,6 +13,9 @@ display: none;
   border-width: 3px 4px 3px 5px;
   animation: animated-border  1.5s infinite;
   filter: grayscale(100%) contrast(80%);
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 25vw;
   width: 30vw;
   height: width*2.5;
 }
@@ -37,7 +40,6 @@ display: none;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-
 }
 
 #Mynav ul li a{
@@ -109,12 +111,12 @@ display: none;
   }
 
   section{
-    min-height: 88vh;
+    min-height: 100vh;
     min-width:100%;
 
   }
-  .fixedsection{
-    min-height:800px;
+  .resumesection{
+    min-height:calc(30% - 12vw);
     min-width:100%;
   }
 
@@ -287,8 +289,9 @@ div.clickEffect2{
 }
 
 .photo img{
-  width: 250px;
-  height: 480px;
+
+  height: 50vh;
+  width:height/5;
   object-fit: cover;
   filter: grayscale(100%) contrast(120%);
   box-shadow: 10px 15px 25px 0 rgba(0,0,0,.5);
