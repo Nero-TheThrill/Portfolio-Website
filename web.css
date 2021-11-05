@@ -16,18 +16,6 @@ body {
     display: none; 
   }
 }
-@media only screen and (hover: none) and (pointer: coarse){
-  .resume {
-  border-width: 3px 4px 3px 5px;
-  animation: animated-border  1.5s infinite;
-  filter: grayscale(100%) contrast(80%);
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  margin-left: 18.5vw;
-  width: 70vw;
-  height: width*2.5;
-}
-}
 
 ::-webkit-scrollbar {
 display: none;
