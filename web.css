@@ -15,6 +15,8 @@ body {
   .mobileHidden { 
     display: none; 
   }
+}
+@media only screen and (hover: none) and (pointer: coarse){
   .resume {
   border-width: 3px 4px 3px 5px;
   animation: animated-border  1.5s infinite;
