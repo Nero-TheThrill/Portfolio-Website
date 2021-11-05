@@ -11,7 +11,7 @@ body {
   font-family: tomorrow;
   src: url(tomorrow.otf);
 }
-@media only screen AND (max-width: 480px) AND(min-width: 320px) { 
+@media only (pointer: none),(pointer: coarse) { 
   .mobileHidden { 
     display: none; 
   }
