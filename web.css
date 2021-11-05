@@ -11,12 +11,23 @@ body {
   font-family: tomorrow;
   src: url(tomorrow.otf);
 }
-@media only screen and (max-device-width: 35cm) {
+@media only screen and (max-device-width:35cm) {
   .mobileHidden { 
     display: none; 
   }
 }
-
+@media only screen and (max-device-width:35cm) {
+.resume {
+  border-width: 3px 4px 3px 5px;
+  animation: animated-border  1.5s infinite;
+  filter: grayscale(100%) contrast(80%);
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 18.5vw;
+  width: 10vh;
+  height: width*2.5;
+}
+}
 ::-webkit-scrollbar {
 display: none;
 }
