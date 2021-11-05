@@ -6,6 +6,13 @@ body {
   background-size:110% 110%;
 
 }
+
+@font-face{
+  font-family: tomorrow;
+  src: url(tomorrow.ttf);
+}
+
+
 ::-webkit-scrollbar {
 display: none;
 }
@@ -121,6 +128,7 @@ display: none;
   }
 
   .title {
+    font-family: tomorrow;
     white-space: nowrap;
     text-align: center;
     font-size: 4vw;
@@ -154,7 +162,7 @@ display: none;
 
 .box {
   
-  font-family: Arial;
+  font-family: tomorrow;
   font-size: 4vw;
   line-height: 3.8vh;
   font-weight: bold;
@@ -251,7 +259,7 @@ div.clickEffect2{
   left: 100px;
   top: 10px;
 
-
+font-family: tomorrow;
   white-space: nowrap;
   font-weight: 400;
   text-shadow: 0px 0px 5px #000000, 0px 0px 7px #000000;
@@ -309,6 +317,7 @@ div.clickEffect2{
   border-radius: 20px;
 }
 .discription{
+  font-family: tomorrow;
     white-space: nowrap;
     text-align: center;
     font-size: 4em;
