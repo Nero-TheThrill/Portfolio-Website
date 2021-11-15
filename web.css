@@ -262,50 +262,6 @@ div.clickEffect2{
   perspective: 1000px;
 }
 
-.carousel {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transform: translateZ(-824px);
-  transform-style: preserve-3d;
-  transition: transform 1s;
-}
-
-.carousel__cell {
-  position: absolute;
-  width: 400px;
-  height: 180px;
-  left: 100px;
-  top: 10px;
-
-font-family: tomorrow;
-  white-space: nowrap;
-  font-weight: 400;
-  text-shadow: 0px 0px 5px #000000, 0px 0px 7px #000000;
-  line-height: 185px;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-  border-radius: 5px 5px 5px 5px;
-}
-
-.carousel__cell:nth-child(8n+1) { background: #909090; }
-.carousel__cell:nth-child(8n+2) { background: #909090; }
-.carousel__cell:nth-child(8n+3) { background: #909090; }
-.carousel__cell:nth-child(8n+4) { background: #909090; }
-.carousel__cell:nth-child(8n+5) { background: #606060; }
-.carousel__cell:nth-child(8n+6) { background: #606060; }
-.carousel__cell:nth-child(8n+7) { background: #606060; }
-.carousel__cell:nth-child(8n+0) { background: #606060; }
-
-.carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(824px); }
-.carousel__cell:nth-child(2) { transform: rotateY( 45deg) translateZ(824px); }
-.carousel__cell:nth-child(3) { transform: rotateY( 90deg) translateZ(824px); }
-.carousel__cell:nth-child(4) { transform: rotateY(135deg) translateZ(824px); }
-.carousel__cell:nth-child(5) { transform: rotateY(180deg) translateZ(824px); }
-.carousel__cell:nth-child(6) { transform: rotateY(225deg) translateZ(824px); }
-.carousel__cell:nth-child(7) { transform: rotateY(270deg) translateZ(824px); }
-.carousel__cell:nth-child(8) { transform: rotateY(315deg) translateZ(824px); }
 
 .scene2 {
   width: 200px;
